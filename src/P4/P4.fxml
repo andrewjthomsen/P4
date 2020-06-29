@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1"
+          xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="P4.Controller">
+    <columnConstraints>
+        <ColumnConstraints/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints/>
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <Button onAction="#calculateGrade" layoutX="9.0" layoutY="161.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="178.0"
+                        text="Convert Score to Letter Grade"/>
+                <Label layoutX="11.0" layoutY="22.0" text="Score:"/>
+                <TextField fx:id="grade" layoutX="113.0" layoutY="18.0" prefHeight="25.0" prefWidth="64.0"/>
+                <Label layoutX="11.0" layoutY="92.0" text="Your Grade Will be:"/>
+                <Label fx:id="letter" layoutX="131.0" layoutY="92.0" prefHeight="17.0" prefWidth="41.0"/>
+            </children>
+        </Pane>
+    </children>
+</GridPane>
